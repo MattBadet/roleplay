@@ -1,6 +1,6 @@
 const Discord = require('discord.js');
 const fs = require("fs");
-const token = process.env.token
+const token = process.env.token;
 
 const bot = new Discord.Client();
 var userData = JSON.parse(fs.readFileSync('Storage/userData.json', 'utf-8'));
